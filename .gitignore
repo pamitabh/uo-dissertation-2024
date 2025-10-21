@@ -1,0 +1,23 @@
+# Typst build outputs
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Except thumbnail
+!thumbnail.png
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
