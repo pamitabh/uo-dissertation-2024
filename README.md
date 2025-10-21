@@ -69,7 +69,6 @@ typst compile main.typ dissertation.pdf
 ├── metadata.typ          # Your dissertation info
 ├── prefatory/            # Title page, abstract, CV, etc.
 ├── chapters/             # Your chapters
-├── appendices/           # Optional appendices
 └── figures/              # Store images here
 ```
 
