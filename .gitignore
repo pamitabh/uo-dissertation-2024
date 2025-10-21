@@ -1,8 +1,5 @@
 # Typst build outputs
 *.pdf
-*.png
-*.jpg
-*.jpeg
 
 # Except thumbnail
 !thumbnail.png
