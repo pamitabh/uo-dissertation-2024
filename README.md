@@ -1,4 +1,4 @@
-# (Unofficial) University of Oregon Dissertation Template for Typst (2024)
+# Unofficial University of Oregon Dissertation Template for Typst (2024)
 
 An unofficial dissertation template for the University of Oregon, following the **2024 Graduate School Style Manual** and official Word template requirements.
 
@@ -104,13 +104,6 @@ Comment out sections you don't need in `main.typ`:
 - Typst 0.12.0 or later
 - STIX Two Text font (included in most Typst installations)
 
-## Compliance
-
-This template is based on:
-- University of Oregon Graduate School 2024 Style Manual
-- Official UO dissertation Word template (2024 edition)
-- UO Graduate School formatting requirements
-
 ## License
 
 MIT License - free to use, modify, and distribute for any purpose.
@@ -121,21 +114,12 @@ See LICENSE file for full text.
 
 Contributions welcome! Please open an issue or pull request on GitHub.
 
-## Support
+## Short Description for Typst Universe
 
-For questions about UO dissertation requirements, contact the UO Graduate School.
-
-For template issues or suggestions, open an issue on GitHub.
-
-## Acknowledgments
-
-Based on the University of Oregon Graduate School official 2024 dissertation requirements and Word templates.
+Unofficial University of Oregon dissertation template for Typst, following the 2024 UO Graduate School Style Manual and official Word template requirements.
 
 ---
 
 **Note**: Always verify current requirements with the UO Graduate School before submitting your dissertation. Requirements may change.
-```
 
-### Short Description for Universe
-```
-University of Oregon dissertation template for Typst, following the 2024 UO Graduate School Style Manual and official Word template requirements.
+---
