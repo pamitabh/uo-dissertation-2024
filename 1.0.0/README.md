@@ -22,15 +22,15 @@ An unofficial dissertation template for the University of Oregon, following the 
 ### Using Typst CLI
 
 ```bash
-typst init @preview/uo-dissertation-2024
-cd uo-dissertation-2024
+typst init @preview/unofficial-uo-dissertation-2024
+cd unofficial-uo-dissertation-2024
 ```
 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/pamitabh/uo-dissertation-2024
-cd uo-dissertation-2024/template
+git clone https://github.com/pamitabh/unofficial-uo-dissertation-2024
+cd unofficial-uo-dissertation-2024/template
 typst compile main.typ dissertation.pdf
 ```
 
@@ -67,9 +67,6 @@ Edit files in the `chapters/` folder:
 
 ```typ
 // chapters/chapter-1.typ
-#import "../config.typ": uo-figure, uo-table
-
-#set par(first-line-indent: 0.5in, leading: 2em)
 
 = Introduction
 
@@ -94,25 +91,30 @@ typst watch main.typ dissertation.pdf
 ## Directory Structure
 
 ```text
-template/
-├── main.typ              # Main file (compile this)
+├── LICENSE
+├── README.md             # This file
+├── thumbnail.png
+├── typst.toml
 ├── config.typ            # Formatting rules
-├── metadata.typ          # Your dissertation info
-├── prefatory/            # Title page, abstract, CV, etc.
-│   ├── abstract.typ
-│   ├── cv.typ
-│   ├── acknowledgments.typ
-│   ├── dedication.typ
-│   ├── list-of-figures.typ
-│   ├── list-of-tables.typ
-│   ├── list-of-schemes.typ
-│   └── cc-badges/        # Creative Commons badge images
-├── chapters/             # Your chapters
-│   ├── chapter-1.typ
-│   ├── chapter-2.typ
-│   └── ...
-├── appendices/           # Optional appendices
-└── figures/              # Store images here
+└── template/
+    ├── main.typ          # Main file (compile this)
+    ├── metadata.typ      # Your dissertation info
+    ├── references.bib    # Your bibliography
+    ├── prefatory/        # Title page, abstract, CV, etc.
+    │   ├── abstract.typ
+    │   ├── cv.typ
+    │   ├── acknowledgments.typ
+    │   ├── dedication.typ
+    │   ├── list-of-figures.typ
+    │   ├── list-of-tables.typ
+    │   ├── list-of-schemes.typ
+    │   └── cc-badges/    # Creative Commons badge images
+    ├── chapters/         # Your chapters
+    │   ├── chapter-1.typ
+    │   ├── chapter-2.typ
+    │   └── ...
+    ├── appendices/       # Optional appendices
+    └── figures/          # Store images here
 ```
 
 ## Customization
@@ -192,6 +194,17 @@ MIT License - free to use, modify, and distribute for any purpose.
 
 See [LICENSE](LICENSE) file for full text.
 
+### Third-Party Media
+
+This template includes the following figures:
+
+- *Nataraja* image: [India statue of Nataraja](https://commons.wikimedia.org/wiki/File:India_statue_of_nataraja.jpg)  
+  by [Rosemania](https://www.flickr.com/photos/rosemania/86746598), licensed under  
+  [Creative Commons Attribution 2.0 Generic (CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/).
+
+- *Dunning–Kruger effect* diagram: Dedicated to the public domain under  
+  [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+
 ## Contributing
 
-Contributions welcome! Please open an issue or pull request on [GitHub](https://github.com/pamitabh/uo-dissertation-2024).
+Contributions welcome! Please open an issue or pull request on [GitHub](https://github.com/pamitabh/unofficial-uo-dissertation-2024).

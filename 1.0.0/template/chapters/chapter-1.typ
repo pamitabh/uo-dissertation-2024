@@ -1,19 +1,18 @@
 // chapters/chapter-1.typ
-#import "../config.typ": uo-figure, uo-table
-
-// Set paragraph formatting for body text
-#set par(first-line-indent: 0.5in, leading: 2em)
 
 // Create chapter heading
 = Introduction
 
-Opening paragraph introducing the research topic and its significance to the field.
+Opening paragraph introducing the research topic and its significance to the field #cite(<darwin1964origin>). #lorem(20)
 
 // ===== CHAPTER CONTENT =====
 
 == Background
 
-Overview of the historical context and development of the research area.
+Overview of the historical context and development of the research area #cite(<janeway1989approaching>).
+#lorem(10)
+$ a + b = gamma $
+#lorem(20)
 
 == Problem Statement
 

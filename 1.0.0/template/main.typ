@@ -2,7 +2,8 @@
 // University of Oregon Dissertation Template
 
 // Import configuration and styling
-#import "config.typ": *
+// #import "../config.typ": * // for local config file
+#import "@preview/unofficial-uo-dissertation-2024:1.0.0": * // for preview package on typst universe
 #import "metadata.typ": *
 
 // Document setup
@@ -117,6 +118,8 @@
 // ===== MAIN BODY =====
 #pagebreak()
 // Include chapters
+// Set paragraph formatting for body text of chapters
+#set par(first-line-indent: 0.5in)
 #include "chapters/chapter-1.typ"
 #include "chapters/chapter-2.typ"
 #include "chapters/chapter-3.typ"
@@ -132,4 +135,12 @@
 // #include "appendices/appendix-b.typ"
 
 // ===== REFERENCES =====
-// #include "references.typ"
+// Format bibliography to match UO style
+#set par(first-line-indent: 0pt, leading: 1em)
+#pagebreak()
+#align(center)[
+  #text(size: 12pt)[REFERENCES CITED]
+]
+#v(0.5in)
+
+#bibliography("references.bib", title: none, style: "american-physics-society")
