@@ -2,7 +2,7 @@
 // Import this file in both main.typ and abstract.typ to avoid duplication
 
 // Document metadata
-#let dissertation-title = "[Insert Full Dissertation Title, Worded Exactly as it Appears on your Abstract, in Title Case, Double-Spaced if More than One Line]"
+#let dissertation-title = "[Insert Full Dissertation Title, Worded Exactly as it Appears on your Abstract, in Title Case, Double-Spaced if More than One Line, Bold Font Allowed if Preferred]"
 #let author-name = "[Your Official UO Name of Record]" // Preferred First Name Allowed if on File With UO
 #let degree-name = "Doctor of [Philosophy/Education/Musical Arts]"
 #let major-name = "[Official Name of Major]"

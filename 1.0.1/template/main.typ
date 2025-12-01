@@ -23,11 +23,11 @@
 #align(center)[
   #v(0.25in)
   #set par(leading: 2em)
-  #text(size: 12pt, upper(dissertation-title))
+  #text(size: 12pt, weight: "bold", dissertation-title)
   #v(0.25in)
   by
   #v(0.25in)
-  #upper(author-name)
+  #author-name
   #v(0.5in)
   A dissertation accepted and approved in partial fulfillment of the \
   requirements for the degree of
