@@ -198,12 +198,9 @@ See [LICENSE](LICENSE) file for full text.
 
 This template includes the following figures:
 
-- *Nataraja* image: [India statue of Nataraja](https://commons.wikimedia.org/wiki/File:India_statue_of_nataraja.jpg)  
-  by [Rosemania](https://www.flickr.com/photos/rosemania/86746598), licensed under  
-  [Creative Commons Attribution 2.0 Generic (CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/).
+- *Nataraja* image: [Indian statue of Nataraja](https://commons.wikimedia.org/wiki/File:India_statue_of_nataraja.jpg) by [Rosemania](https://www.flickr.com/photos/rosemania/86746598), licensed under [Creative Commons Attribution 2.0 Generic (CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/).
 
-- *Dunning–Kruger effect* diagram: Dedicated to the public domain under  
-  [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+- *Dunning–Kruger effect* diagram: Dedicated to the public domain under [Creative Commons CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ## Contributing
 
